@@ -132,6 +132,7 @@ a:hover{
 .hidden{
     opacity: 0
 }
+
 .card-content{
     display: flex;
     flex-direction: column;
