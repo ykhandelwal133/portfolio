@@ -530,8 +530,38 @@ padding: 1.5rem 1.5rem;
     width: 60%;
 }
 
+.flex-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.flex-list img{
+    width:70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 
+}
 
+.shadow{
+    box-shadow: 0 2px 12px #00000012;
+}
+
+.erick-logo{
+    display: flex;
+   justify-content: space-around;
+    margin: 1.5rem auto;
+    
+}
+.golden-path{
+    font-weight:700;
+    margin: 0 auto 1rem;
+    width: fit-content;
+}
 /*media query starts from here */
 /*media query starts from here */
 /*media query starts from here */
@@ -612,10 +642,19 @@ padding: 1.5rem 1.5rem;
     
     }
 
-    @media only screen and (max-width:780px){
+    @media only screen and (max-width:900px){
     .footer .footer-content h2{
          font-size: 3rem;
      }
+     .flex-list{
+         margin-top: 0;
+         justify-content: space-between;
+     }
+     .flex-list img{
+         margin: 0;
+         width:100%;
+     }
+
     }
 
     @media only screen and (max-width: 570px){
