@@ -562,6 +562,12 @@ padding: 1.5rem 1.5rem;
     margin: 0 auto 1rem;
     width: fit-content;
 }
+
+.center-content{
+    text-align: center;
+    font-size: .875rem;
+    text-transform: uppercase;
+}
 /*media query starts from here */
 /*media query starts from here */
 /*media query starts from here */
@@ -664,6 +670,9 @@ padding: 1.5rem 1.5rem;
            margin-bottom: 0;}
         .card-content h1{
             font-size: .875rem;
+        }
+        .center-content{
+            font-size: .75rem;
         }
         .card-line{
             background: white;
